@@ -2,8 +2,7 @@
 
 function watchForm() {
     $('.js-dog-form').submit(event => {
-        event.preventDefault();
-        //this make the image section visible        
+        event.preventDefault();       
         getDogImage()
     });
 };
