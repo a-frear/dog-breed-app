@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('https://cdn.decorpad.com/photos/2015/03/25/thiabut-tanzania-wallpaper.jpg');
+  }
+
+  h1, .result-text {
+    font-family: 'Bungee', cursive;
+    font-size: 30px;
+    background: #F39237;
+    padding: 10px;
+  }
+
+  .rules {
+      font-size: 15px;
+      background: #F6F740;
+      padding: 5px;
+      text-transform: uppercase;
+      max-width: 300px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .hidden {
+    display: none;
+  }
+
+  ul {
+      list-style: none;
+      }
+
+  img {
+      max-width: 300px;
+      border: 5px solid #DB2955;
+      margin: 10px;
+  }
+
+  .user-number {
+      font-size: 30px;
+  }
+
+  .button {
+      margin-top: 15px;
+      padding: 10px;
+      font-size: 15px;
+      font-family: 'Bungee', cursive;
+      background-color: #DB2955;
+  }
+
+  .result-text {
+      background: #58A4B0;
+  }
+
+  @media all and (min-width: 601px) {
+    h1 {
+        font-size: 60px;
+      }
+
+    .rules {
+        font-size: 15px;
+        max-width: 390px;
+    }
+
+    button {
+        font-size: 30px;
+    }
+
+    .result-text {
+        font-size: 40px;
+        max-width: 375px;
+    }
+       
+
+  }
